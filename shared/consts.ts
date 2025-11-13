@@ -11,7 +11,7 @@ export default {
         // validated in txtracker dataset
         discord: /^discord:\d{17,20}$/,
         fivem: /^fivem:\d{1,8}$/,
-        irfive: /^irfive:\d{1,8}$/i,
+        overfive: /^overfive:\d{1,8}$/i,
         license: /^license:[a-zA-Z0-9]{14,60}$/,   // ← تغییر دادیم
         license2: /^license2:[a-zA-Z0-9]{14,60}$/, // ← تغییر دادیم
         live: /^live:\d{14,20}$/,
@@ -21,7 +21,7 @@ export default {
     validIdentifierParts: {
         discord: regexDiscordSnowflake,
         fivem: /^fivem:\d{1,8}$/,
-        irfive: /^irfive:\d{1,8}$/i,
+        overfive: /^overfive:\d{1,8}$/i,
         license: /^license:[a-zA-Z0-9]{14,60}$/,   // ← تغییر دادیم
         license2: /^license2:[a-zA-Z0-9]{14,60}$/, // ← تغییر دادیم
         live: /^\d{14,20}$/,

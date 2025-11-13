@@ -10,7 +10,7 @@ const console = consoleFactory(modulename);
 import crypto from 'node:crypto';
 
 const getOauthState = (stateKern: string) => {
-    const stateSeed = `tx:irfive:${stateKern}`;
+    const stateSeed = `tx:overfive:${stateKern}`;
     const data = crypto.createHash('SHA1').update(stateSeed).digest('hex');
     return crypto.createHash('SHA1').update(stateSeed).digest('hex');
 };
